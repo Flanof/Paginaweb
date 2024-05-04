@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="CSS/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link href="CSS/style.css" rel="stylesheet">
+    <title>Galerix</title>
+</head>
+<body>
+    <nav class="navbar">
+      <a href="#header">Galerix</a>
+        <div class="nav-contenido">
+            <a href="#section1">Que es Galerix</a>
+            <a href="#section2">Movimientos</a>
+            <a href="#section3">Publicaciones</a>
+            <a href="#section4">Registrate</a>
+        </div>
+    </nav>
+    <header class="header" id="header">
+        <div class="header-contenido">
+            <h1>Galerix</h1>
+            <h3>Se parte de esta gran galeria</h3>
+            <br>
+            <a href="#section1"><button>Continuar</button></a>
+        </div>
+    </header>
+    <section id="section1">
+        <div class="seccion1-contenido">
+        <hr size="10" color="#FF0000">
+        <h2 id="h2seccion1">¿Que es Galerix?</h2>
+        <h4 id="h4seccion1">Galerix es mucho más que una simple galería en línea.
+            Es un vibrante espacio digital para artistas y aficionados,
+            donde cada obra es una historia por contar. 
+            Exhibe tus creaciones en un entorno digital innovador y,
+             si lo deseas, únete a nuestra comunidad de vendedores. </h4>
+        <hr size="10" color="#FF0000">
+        </div>
+        <div class="imagen-seccion1">
+            <img src="CSS/IMG/imagen-seccion1.jpg" alt="imagen-seccion1">
+        </div>
+        <style>
+            .imagen-seccion1 {
+                animation: escalar 10s alternate;
+            }
+        
+            @keyframes escalar {
+                0% {
+                    transform: scale(0.5); 
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+        </style>
+    </section>
+    <section id="section2">
+        <div class="card-container">
+            <div class="card">
+              <a href="#section4">
+                <img class="card-img-top" src="CSS/IMG/Explora los movimientos Artisticos.jpg">
+                <div class="card-body">
+                    <p class="card-text"></p>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="CSS/IMG/Imagen1.jpg">
+                <div class="card-body">
+                    <p class="card-text">Realismo</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="CSS/IMG/Imagen2.jpg">
+                <div class="card-body">
+                    <p class="card-text">Surealismo</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="CSS/IMG/Imagen3.jpg">
+                <div class="card-body">
+                    <p class="card-text">Cubismo</p>
+                </div>
+            </div>
+            <div class="card">
+              <a href="#section4">
+                <img class="card-img-top" class="boton-destacado" src="CSS/IMG/Explora los movimientos Artisticos (1).jpg">
+                <div class="card-body">
+                    <p class="card-text"></p>
+                </div>
+              </a>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <aside class="aside-container">
+            <h4>Enlaces</h4>
+            <a href="#destacados">Destacados</a>
+            <br>
+            <a href="#Ultimas publicaciones">Ultimas publicaiones</a>
+            <br>
+            <a href="#Cuadros en venta">Cuadros en venta</a>
+        </aside>
+        <div class="section3-contenido">
+            <h1>Publicaciones</h1>
+
+            <div class="contenedor">
+                <div class="card primera">
+                  <a href="#section4">
+                    <div class="card-body" id="destacados">
+                      Destacados
+                    </div>
+                  </a>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/Pato.jpg">
+                    <div class="card-body">
+                      <b>Pato</b>
+                      <br>
+                      <b>by ducky</b>
+                      <p>Hice este pato hace un par de semanas, que les parece?</p>
+                    </div>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/gato.jpg">
+                    <div class="card-body">
+                      <b>Asombro</b>
+                      <br>
+                      <b>by Eduardo</b>
+                      <p>Me inspire en el grito y mi gato</p>
+                    </div>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/Perro.jpg">
+                    <div class="card-body">
+                      <b>Mi cielo</b>
+                      <br>
+                      <b>by Cata</b>
+                      <p>Este es un retrato de mi perro firu</p>
+                    </div>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/gentelman.jpg">
+                    <div class="card-body">
+                      <b>Gentleman</b>
+                      <br>
+                      <b>by Gentle</b>
+                      <p>Que sofisticado,no?</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="contenedor">
+                <div class="card primera">
+                  <a href="#section4">
+                    <div class="card-body" id="Ultimas publicaciones">
+                      Ultimas publicaciones
+                    </div>
+                  </a>
+                  </div>
+                    <div class="card publicaciones">
+                        <img class="card-img-top" src="CSS/IMG/Libros.jpg">
+                        <div class="card-body">
+                          <b>Libreria</b>
+                          <br>
+                          <b>by Juan Carlos</b>
+                          <p>Pintura hecha con acrilico</p>
+                        </div>
+                      </div>
+                    <div class="card publicaciones">
+                        <img class="card-img-top" src="CSS/IMG/manos.jpg">
+                        <div class="card-body">
+                          <b>Tacto</b>
+                          <br>
+                          <b>by Lucia</b>
+                          <p>Vi la foto de unas manos y las quise pintar</p>
+                        </div>
+                      </div>
+                    <div class="card publicaciones">
+                        <img class="card-img-top" src="CSS/IMG/zapatillas.jpg">
+                        <div class="card-body">
+                          <b>Zapas</b>
+                          <br>
+                          <b>by Janet</b>
+                          <p>Mis convers ya estan algo desgastadas, que mejor que retratarlas</p>
+                        </div>
+                      </div>
+                    <div class="card publicaciones">
+                        <img class="card-img-top" src="CSS/IMG/peces.jpg">
+                        <div class="card-body">
+                          <b>Libres</b>
+                          <br>
+                          <b>by Anto</b>
+                          <p>Retrate mi ultimo sueño</p>
+                        </div>
+                      </div>
+                </div>
+            <div class="contenedor">
+                <div class="card primera">
+                  <a href="#section4">
+                    <div class="card-body" id="Cuadros en venta">
+                      Cuadros en venta
+                    </div>
+                  </a>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/Bote.jpg">
+                    <div class="card-body">
+                      <b>Deriva</b>
+                      <br>
+                      <b>by Kaiser</b>
+                      <p>Pintura en oleo</p>
+                    </div>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/Ciudad.jpg">
+                    <div class="card-body">
+                      <b>Nightcity</b>
+                      <br>
+                      <b>by Charls</b>
+                      <p>Se vende</p>
+                    </div>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/perroagua.jpg">
+                    <div class="card-body">
+                      <b>Jugueton</b>
+                      <br>
+                      <b>by ducky</b>
+                      <p>Es una obra hecha por un familiar</p>
+                    </div>
+                  </div>
+                <div class="card publicaciones">
+                    <img class="card-img-top" src="CSS/IMG/Whiski.jpg">
+                    <div class="card-body">
+                      <b>Whisky</b>
+                      <br>
+                      <b>by Laura</b>
+                      <p>pintura hecha con oleo</p>
+                    </div>
+                  </div>
+            </div>                          
+    </section>
+    <section id="section4">
+      <form class="my-form">
+        <div class="form-group">
+          <h2>Unete a nuestra comunidad</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    </section>
+    <footer class="footer">
+      <div class="container">
+          <p>&copy; 2024 Galerix. Todos los derechos reservados.</p>
+      </div>
+  </footer>
+</body>
+</html>
